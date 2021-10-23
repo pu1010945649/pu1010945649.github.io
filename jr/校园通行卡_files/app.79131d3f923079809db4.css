@@ -4,16 +4,7 @@
        url(../../static/fonts/iconfont.c42c242a.woff) format('woff'),
        url(../../static/fonts/iconfont.c0e6ea98.ttf) format('truetype');
 }
-.health_box .health_button{
-    width: 100%;
-    text-align: center;
-    position: absolute;
-    z-index: 3;
-    bottom: .4rem;
-    left: 50%;
-    -webkit-transform: translateX(-50%);
-    transform: translateX(-50%);
-	}
+
 .iconfont {
   font-family: "iconfont" !important;
   font-size: 16px;
