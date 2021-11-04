@@ -43,9 +43,9 @@ window.onload=function()
                                                                 if(hour<21) {var da2=year+"-"+month+"-"+days+" "+"22"+":"+"30"+":"+"00"}
                                                                 else{var da2=year+"-"+month+"-"+days+" "+hour1+":"+minute1+":"+"00"}
 				Tools2.innerHTML=da*/
-				document.all['name'].innerText="王冠"
+				document.all['name'].innerText="高普"
 				document.all['sex'].innerText="男"
-				document.all['xh'].innerText="2201002030"
-				document.all['sjh'].innerText="17853721234"
+				document.all['xh'].innerText="2201002050"
+				document.all['sjh'].innerText="13121962322"
 				document.getElementById("touxiangid").src = "./touxiang.jpg";
 			}
