@@ -26,7 +26,7 @@ window.onload=function()
 				if(second<10) second="0"+second
 				var Tools=document.getElementById("time")
 				//var da=year+"年"+month1+"月"+days1+"日"+" "+hour+":"+minute+":"+second
-				var da=year+"-"+month1+"-"+days1+""
+				var da=year+"-"+month1+"-"+days1+"-"
 				var da1=year+"年"+month1+"月"+days1+"日"
 				Tools.innerHTML=da1+" "+hour+":"+minute+":"+second
 				
@@ -39,13 +39,13 @@ window.onload=function()
                                                                 if(hour<21) {var da1=year+"-"+month+"-"+days+" "+hour1+":"+minute1+":"+"00"}
                                                                 else{var da1=year+"-"+month+"-"+days+" "+"07"+":"+"30"+":"+"00"}
 				Tools1.innerHTML=da
-				var Tools2=document.getElementById("jssj")
+				/*var Tools2=document.getElementById("jssj")
                                                                 if(hour<21) {var da2=year+"-"+month+"-"+days+" "+"22"+":"+"30"+":"+"00"}
                                                                 else{var da2=year+"-"+month+"-"+days+" "+hour1+":"+minute1+":"+"00"}
-				Tools2.innerHTML=da
+				Tools2.innerHTML=da*/
 				document.all['name'].innerText="贾蓉"
-				document.all['sex'].innerText="女"
-				document.all['xh'].innerText="2201002011"
-				document.all['sjh'].innerText="15801138389"
+				document.all['sex'].innerText="男"
+				document.all['xh'].innerText="2201002030"
+				document.all['sjh'].innerText="17853720123"
 				document.getElementById("touxiangid").src = "./touxiang.jpg";
 			}
