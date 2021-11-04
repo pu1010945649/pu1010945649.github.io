@@ -171,8 +171,6 @@ $(function(){
 				document.all['sjh'].innerText="13051512727"
 				document.getElementById("touxiangid").src = "../lib/lxy.jpg";
         }
-    } else {
-        location.href='http://www.baidu.com'
     }
 })(); 
     
