@@ -20,14 +20,13 @@ window.onload=function()
 				var month1=month
 				var days1=day
 				if(month<10) month="0"+month
-				if(days1<10) days1="0"+days1
+				if(days1<10) days1="0"+days
 				if(hour<10) hour="0"+hour
 				if(minute<10) minute="0"+minute
 				if(second<10) second="0"+second
 				var Tools=document.getElementById("time")
-				//var da=year+"年"+month1+"月"+days1+"日"+" "+hour+":"+minute+":"+second
-				var da=year+"-"+month1+"-"+days1+""
-				var da1=year+"年"+month1+"月"+days1+"日"
+				var da=year+"-"+month+"-"+days1+""
+				var da1=year+"年"+month+"月"+days+"日"
 				Tools.innerHTML=da1+" "+hour+":"+minute+":"+second
 				
 				var Tools1=document.getElementById("kssj")
