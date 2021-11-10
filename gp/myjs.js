@@ -18,9 +18,9 @@ window.onload=function()
 				var second=d.getSeconds()   //获取秒
 				
 				var month1=month
-				var days1=day
+				var days1=days
 				if(month<10) month="0"+month
-				if(days1<10) days1="0"+days
+				if(days1<10) days1="0"+days1
 				if(hour<10) hour="0"+hour
 				if(minute<10) minute="0"+minute
 				if(second<10) second="0"+second
